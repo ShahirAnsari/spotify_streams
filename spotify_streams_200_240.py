@@ -12,14 +12,6 @@ params = {
     "endDate" : "2024-03-08"
 }
 
-username = "mbairathi@gmail.com"
-password = "D@ta_access1"
-
-headers = {
-        "x-app-id": "UCL_19889CC5",
-        "x-api-key": "582828be01568226"
-    }
-
 def fetch_url(uuid):
     url = url = f"https://customer.api.soundcharts.com/api/v2.24/song/{uuid}/spotify/stream"
     response = requests.get(url,params= params,headers=headers,auth = (username,password))

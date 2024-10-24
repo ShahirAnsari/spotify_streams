@@ -45,7 +45,7 @@ while True:
 #         print(next_url)
 #         print(nextlink)
         for row in data['items']:
-            one_row = [row['total'], row['change'], row['percent'], row['song']['uuid'][1:], row['song']['name'], row['song']['creditName'], next_token]
+            one_row = [row['total'], row['change'], row['percent'], row['song']['uuid'], row['song']['name'], row['song']['creditName'], next_token]
             try:
                 writer.writerow(one_row)
             except:

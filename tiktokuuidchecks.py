@@ -8,10 +8,6 @@ import time
 import time
 
 
-username = "mbairathi@gmail.com"
-password = "D@ta_access1"
-
-
 start = 0
 end = 2
 url_hit = start
